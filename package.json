@@ -1,0 +1,41 @@
+{
+  "name": "sublog-api",
+  "version": "1.0.0",
+  "description": "基于Node Express 的个人博客接口",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "demo": "ts-node-dev --respawn --transpile-only src/test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corder-Su/sublog-api.git"
+  },
+  "author": "Coder-Su",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Corder-Su/sublog-api/issues"
+  },
+  "homepage": "https://github.com/Corder-Su/sublog-api#readme",
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/express": "^4.17.13",
+    "@types/express-validator": "^3.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.31",
+    "@types/pino": "^7.0.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.2",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.3.2",
+    "pino": "^7.11.0",
+    "pino-pretty": "^7.6.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4",
+    "validator": "^13.7.0",
+    "zod": "^3.15.1"
+  }
+}
